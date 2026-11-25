@@ -39,6 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
                 android:layout_weight="1"
+                android:tint="#383d34"
                 app:srcCompat="@drawable/ic_home_24" />
 
             <TextView
@@ -48,6 +49,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Home"
+                android:textColor="#383d34"
                 android:textSize="11sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -65,6 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
                 android:layout_weight="1"
+                android:tint="#383d34"
                 app:srcCompat="@drawable/ic_receipt_24" />
 
             <TextView
@@ -74,7 +77,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Order"
-                android:textColor="#868686"
+                android:textColor="#383d34"
                 android:textSize="11sp" />
         </LinearLayout>
 
@@ -91,6 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
                 android:layout_weight="1"
+                android:tint="#383d34"
                 app:srcCompat="@drawable/ic_chat_24" />
 
             <TextView
@@ -100,7 +104,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Chat"
-                android:textColor="#868686"
+                android:textColor="#383d34"
                 android:textSize="11sp" />
         </LinearLayout>
 
@@ -117,6 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
                 android:layout_weight="1"
+                android:tint="#383d34"
                 app:srcCompat="@drawable/ic_profile_24" />
 
             <TextView
@@ -126,7 +131,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Profile"
-                android:textColor="#868686"
+                android:textColor="#383d34"
                 android:textSize="11sp" />
 
         </LinearLayout>

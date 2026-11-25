@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="160dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="6dp"
     android:background="@drawable/bg_rounded_white"
     android:clipToOutline="true"
-    android:elevation="8dp"
+    android:elevation="4dp"
     android:orientation="vertical">
 
     <ImageView
@@ -17,7 +18,7 @@
         app:srcCompat="@drawable/ic_launcher_background" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingHorizontal="15dp"
@@ -25,16 +26,17 @@
 
         <TextView
             android:id="@+id/textView40"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Kaos Band Edisi Tour Tokyo"
-            android:maxLines="2"
             android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Kaos Band Edisi Tour Tokyo"
+            android:textColor="#383d34"
             android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:gravity="center_vertical"
@@ -44,7 +46,7 @@
                 android:id="@+id/textView44"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🌐 "
+                android:text="🇯🇵 "
                 android:textSize="12sp" />
 
             <TextView
@@ -54,6 +56,7 @@
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:text="Jepang"
+                android:textColor="#383d34"
                 android:textSize="12sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -72,6 +75,7 @@
                 android:layout_height="wrap_content"
                 android:paddingRight="5dp"
                 android:text="2"
+                android:textColor="#383d34"
                 android:textSize="13sp"
                 android:textStyle="bold" />
 
@@ -81,6 +85,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Penawaran"
+                android:textColor="#383d34"
                 android:textSize="13sp"
                 android:textStyle="bold" />
         </LinearLayout>

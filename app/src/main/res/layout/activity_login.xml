@@ -69,6 +69,7 @@
                 android:layout_marginBottom="4dp"
                 android:paddingHorizontal="4dp"
                 android:text="Email"
+                android:textColor="#383d34"
                 android:textStyle="bold" />
 
             <EditText
@@ -82,7 +83,9 @@
                 android:hint="fransiskus.tegar@gmail.com"
                 android:inputType="text"
                 android:paddingHorizontal="15dp"
-                android:paddingVertical="15dp" />
+                android:paddingVertical="15dp"
+                android:textColorHint="#868686"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -91,6 +94,7 @@
                 android:layout_marginBottom="4dp"
                 android:paddingHorizontal="4dp"
                 android:text="Kata sandi"
+                android:textColor="#383d34"
                 android:textStyle="bold" />
 
             <EditText
@@ -104,7 +108,9 @@
                 android:hint="****"
                 android:inputType="textPassword"
                 android:paddingHorizontal="15dp"
-                android:paddingVertical="15dp" />
+                android:paddingVertical="15dp"
+                android:textColorHint="#868686"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -133,6 +139,8 @@
                 android:backgroundTint="#8c9f72"
                 android:paddingVertical="15dp"
                 android:text="Masuk"
+                android:textColor="#f8f6ef"
+                android:textColorLink="#f8f6ef"
                 android:textStyle="bold"
                 app:cornerRadius="12dp" />
 

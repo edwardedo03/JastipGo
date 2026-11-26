@@ -29,10 +29,15 @@ public class MainActivity extends AppCompatActivity {
         }
 
         LinearLayout navHome = findViewById(R.id.navHome);
+        LinearLayout navChat = findViewById(R.id.navChat);
         LinearLayout navProfile = findViewById(R.id.navProfile);
 
         if (navHome != null) {
             navHome.setOnClickListener(v -> loadFragment(new HomeFragment()));
+        }
+
+        if (navChat != null) {
+            navChat.setOnClickListener(v -> loadFragment(new ChatFragment()));
         }
 
         if (navProfile != null) {
